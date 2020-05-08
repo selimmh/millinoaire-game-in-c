@@ -145,7 +145,7 @@ int main()
         printf("\n\t\t________________________________________");
         printf("\n\t\t     Scorul dumneavoastra: %d din 15", score_counter);
         printf("\n\t\t________________________________________");
-		printf("\n\n\t\t   2.PRIMUL ON IN SPATIU A FOST ...?");
+		printf("\n\n\t\t   2.PRIMUL Om IN SPATIU A FOST ...?");
 		printf("\n\n\t\t  A.Alan Bean\t\t  B.Neil Armstrong\n\n\t\t  C.Buzz Aldrin\t\t  D.Yuri Gagarin");
 		printf("\n\t\t________________________________________");
 
@@ -269,7 +269,7 @@ int main()
         printf("\n\t\t     Scorul dumneavoastra: %d din 15", score_counter);
         printf("\n\t\t________________________________________");
 		printf("\n\n\t\t   5.CARE OM DE STIINTA A DESCOPERIT  ");
-		printf("\n\t\t   RADIOUL ELEMENTULUI RADIOACTIV??     ");
+		printf("\n\t\t      RADIOUL ELEMENTULUI RADIOACTIV?   ");
 		printf("\n\n\t\t  A.Isaac Newton\t  B.Albert Einstein\n\n\t\t  C.Marie Curie\t\t  D.Benjamin Franklin");
 		printf("\n\t\t________________________________________");
 
@@ -314,8 +314,8 @@ int main()
         printf("\n\t\t________________________________________");
         printf("\n\t\t     Scorul dumneavoastra: %d din 15", score_counter);
         printf("\n\t\t________________________________________");
-		printf("\n\n\t\t   6. Lorem ipsum dolor sit amet?");
-		printf("\n\n\t\t  A.\t\t  B.\n\n\t\t  C.\t\t  D.");
+		printf("\n\n\t\t   6.CE NU POATE LIPSI DIN SALATA GRECEASCA?");
+		printf("\n\n\t\t  A.Praful de copt\t  B.Dulceata de gutui\n\n\t\t  C.Branza\t\t  D.Coniacul");
 		printf("\n\t\t________________________________________");
 
         setcolor(3);
@@ -326,7 +326,7 @@ int main()
 		prize_r2();
 
 		printf("\n\n\t\t      Raspunsul dumneavoastra: ");
-		if (toupper(getch())=='A')
+		if (toupper(getch())=='C')
 			{
             system("COLOR 2F");
             printf("\n\n\t\t\t      Corect");
@@ -340,7 +340,7 @@ int main()
             {
             system("COLOR 4F");
             printf("\n\n\t\t\t      Gresit");
-            printf("\n\n\t\t\tRaspunsul este 'A'");
+            printf("\n\n\t\t\tRaspunsul este 'C'");
             printf("\n\n\t\t\t  Apasati Enter: ");
             getch();
             reset_list();
@@ -355,8 +355,9 @@ int main()
         printf("\n\t\t________________________________________");
         printf("\n\t\t     Scorul dumneavoastra: %d din 15", score_counter);
         printf("\n\t\t________________________________________");
-		printf("\n\n\t\t   2. ?");
-		printf("\n\n\t\t  A.\t\t  B.\n\n\t\t  C.\t\t  D.");
+		printf("\n\n\t\t   7.CE SE ZICE IN POPOR CA-SI TINE OMUL");
+		printf("\n\t\t            INGAMFAT PE SUS");
+		printf("\n\n\t\t  A.Nasul\t\t  B.Urechile\n\n\t\t  C.Degele\t\t  D.Ochi");
 		printf("\n\t\t________________________________________");
 
         setcolor(3);
@@ -396,8 +397,9 @@ int main()
         printf("\n\t\t________________________________________");
         printf("\n\t\t     Scorul dumneavoastra: %d din 15", score_counter);
         printf("\n\t\t________________________________________");
-		printf("\n\n\t\t   3. ?");
-		printf("\n\n\t\t  A.\t\t  B.\n\n\t\t  C.\t\t  D.");
+		printf("\n\n\t\t   8.CU CE PICTEAZA ARTISTII CARE UTILIZEAZA");
+		printf("\n\t\t              CULORI ACUARELA");
+		printf("\n\n\t\t  A.Otet\t\t  B.Cafea\n\n\t\t  C.Petrol\t\t  D.Apa");
 		printf("\n\t\t________________________________________");
 
         setcolor(3);
@@ -408,7 +410,7 @@ int main()
 		prize_r2();
 
 		printf("\n\n\t\t      Raspunsul dumneavoastra: ");
-		if (toupper(getch())=='A')
+		if (toupper(getch())=='D')
 			{
             system("COLOR 2F");
             printf("\n\n\t\t\t      Corect");
@@ -422,7 +424,7 @@ int main()
             {
             system("COLOR 4F");
             printf("\n\n\t\t\t      Gresit");
-            printf("\n\n\t\t\tRaspunsul este 'A'");
+            printf("\n\n\t\t\tRaspunsul este 'D'");
             printf("\n\n\t\t\t  Apasati Enter: ");
             getch();
             reset_list();
@@ -437,8 +439,8 @@ int main()
         printf("\n\t\t________________________________________");
         printf("\n\t\t     Scorul dumneavoastra: %d din 15", score_counter);
         printf("\n\t\t________________________________________");
-		printf("\n\n\t\t   3. ?");
-		printf("\n\n\t\t  A.\t\t  B.\n\n\t\t  C.\t\t  D.");
+		printf("\n\n\t\t   9.CARE DINTRE URMATOARELE TARI SE AFLA IN ASIA ?");
+		printf("\n\n\t\t  A.Polonia\t\t  B.Congo\n\n\t\t  C.Israel\t\t  D.Argentina");
 		printf("\n\t\t________________________________________");
 
         setcolor(3);
@@ -449,7 +451,7 @@ int main()
 		prize_r2();
 
 		printf("\n\n\t\t      Raspunsul dumneavoastra: ");
-		if (toupper(getch())=='A')
+		if (toupper(getch())=='C')
 			{
             system("COLOR 2F");
             printf("\n\n\t\t\t      Corect");
@@ -463,7 +465,7 @@ int main()
             {
             system("COLOR 4F");
             printf("\n\n\t\t\t      Gresit");
-            printf("\n\n\t\t\tRaspunsul este 'A'");
+            printf("\n\n\t\t\tRaspunsul este 'C'");
             printf("\n\n\t\t\t  Apasati Enter: ");
             getch();
             reset_list();
@@ -479,8 +481,8 @@ int main()
         printf("\n\t\t________________________________________");
         printf("\n\t\t     Scorul dumneavoastra: %d din 15", score_counter);
         printf("\n\t\t________________________________________");
-		printf("\n\n\t\t   5. ?");
-		printf("\n\n\t\t  A.\t\t  B.\n\n\t\t  C.\t\t  D.");
+		printf("\n\n\t\t   10.UNDE TRAIESC CEI MAI MULTI ESCHIMOSI?");
+		printf("\n\n\t\t  A.In Sahara\t\t  B.In Tahiti\n\n\t\t  C.In Polare\t\t  D.In jungla");
 		printf("\n\t\t________________________________________");
 
         setcolor(3);
@@ -491,7 +493,7 @@ int main()
 		prize_r2();
 
 		printf("\n\n\t\t      Raspunsul dumneavoastra: ");
-		if (toupper(getch())=='A')
+		if (toupper(getch())=='C')
 			{
             system("COLOR 2F");
             printf("\n\n\t\t\t      Corect");
@@ -506,7 +508,7 @@ int main()
             {
             system("COLOR 4F");
             printf("\n\n\t\t\t      Gresit");
-            printf("\n\n\t\t\tRaspunsul este 'A'");
+            printf("\n\n\t\t\tRaspunsul este 'C'");
             printf("\n\n\t\t\t  Apasati Enter: ");
             getch();
             reset_list();
@@ -524,8 +526,8 @@ int main()
         printf("\n\t\t________________________________________");
         printf("\n\t\t     Scorul dumneavoastra: %d din 15", score_counter);
         printf("\n\t\t________________________________________");
-		printf("\n\n\t\t   6. ?");
-		printf("\n\n\t\t  A.\t\t  B.\n\n\t\t  C.\t\t  D.");
+		printf("\n\n\t\t   11.CE TARA NU SE AFLA IN PENINSULA SCANDINAVA?");
+		printf("\n\n\t\t  A.Argentina\t\t  B.Suedia\n\n\t\t  C.Norvegia\t\t  D.Finlanda");
 		printf("\n\t\t________________________________________");
 
         setcolor(3);
@@ -565,8 +567,8 @@ int main()
         printf("\n\t\t________________________________________");
         printf("\n\t\t     Scorul dumneavoastra: %d din 15", score_counter);
         printf("\n\t\t________________________________________");
-		printf("\n\n\t\t   7. ?");
-		printf("\n\n\t\t  A.\t\t  B.\n\n\t\t  C.\t\t  D.");
+		printf("\n\n\t\t   12.CE FEL DE RASA ESTE DOBERMANUL?");
+		printf("\n\n\t\t  A.Felina\t\t  B.Bovina\n\n\t\t  C.Cabalina\t\t  D.Canina");
 		printf("\n\t\t________________________________________");
 
         setcolor(3);
@@ -577,7 +579,7 @@ int main()
 		prize_r3();
 
 		printf("\n\n\t\t      Raspunsul dumneavoastra: ");
-		if (toupper(getch())=='A')
+		if (toupper(getch())=='D')
 			{
             system("COLOR 2F");
             printf("\n\n\t\t\t      Corect");
@@ -606,8 +608,8 @@ int main()
         printf("\n\t\t________________________________________");
         printf("\n\t\t     Scorul dumneavoastra: %d din 15", score_counter);
         printf("\n\t\t________________________________________");
-		printf("\n\n\t\t   8. ?");
-		printf("\n\n\t\t  A.\t\t  B.\n\n\t\t  C.\t\t  D.");
+		printf("\n\n\t\t   13.CARE DINTRE URMATOARELE CUVINTE NU E DIMINUTIV?");
+		printf("\n\n\t\t  A.Sticula\t\t  B.Maimuta\n\n\t\t  C.Furnicuta\t\t  D.Puicuta");
 		printf("\n\t\t________________________________________");
 
         setcolor(3);
@@ -618,7 +620,7 @@ int main()
 		prize_r3();
 
 		printf("\n\n\t\t      Raspunsul dumneavoastra: ");
-		if (toupper(getch())=='A')
+		if (toupper(getch())=='B')
 			{
             system("COLOR 2F");
             printf("\n\n\t\t\t      Corect");
@@ -647,8 +649,8 @@ int main()
         printf("\n\t\t________________________________________");
         printf("\n\t\t     Scorul dumneavoastra: %d din 15", score_counter);
         printf("\n\t\t________________________________________");
-		printf("\n\n\t\t   9. ?");
-		printf("\n\n\t\t  A.\t\t  B.\n\n\t\t  C.\t\t  D.");
+		printf("\n\n\t\t   14.CE TRUPA CANTA PIESA 'PRAF DE STELE'?");
+		printf("\n\n\t\t  A.Parlament\t\t  B.Vita de vie\n\n\t\t  C.Vama Veche\t\t  D.Sarmalele reci");
 		printf("\n\t\t________________________________________");
 
         setcolor(3);
@@ -659,7 +661,7 @@ int main()
 		prize_r3();
 
 		printf("\n\n\t\t      Raspunsul dumneavoastra: ");
-		if (toupper(getch())=='A')
+		if (toupper(getch())=='B')
 			{
             system("COLOR 2F");
             printf("\n\n\t\t\t      Corect");
@@ -688,8 +690,8 @@ int main()
         printf("\n\t\t________________________________________");
         printf("\n\t\t     Scorul dumneavoastra: %d din 15", score_counter);
         printf("\n\t\t________________________________________");
-		printf("\n\n\t\t   10. ?");
-		printf("\n\n\t\t  A.\t\t  B.\n\n\t\t  C.\t\t  D.");
+		printf("\n\n\t\t   15.CARE DINTRE URMATORII SCRIITORI ESTE IRLANDEZ?");
+		printf("\n\n\t\t  A.James Joyce\t\t  B.Charles Dickens\n\n\t\t  C.Ernest Hemingway\t  D.Marcek Proust");
 		printf("\n\t\t________________________________________");
 
         setcolor(3);
@@ -763,12 +765,12 @@ void prize_r1()
     {
     printf("\n");
     setcolor(10);
-    printf("\n\t\t\t\t [5]  1.000 Lei");
+    printf("\n\t\t\t   [5]  1.000 Lei");
     setcolor(14);
-    printf("\n\t\t\t\t [4]  500 Lei");
-    printf("\n\t\t\t\t [3]  300 Lei");
-    printf("\n\t\t\t\t [2]  200 Lei");
-    printf("\n\t\t\t\t [1]  100 Lei");
+    printf("\n\t\t\t   [4]  500 Lei");
+    printf("\n\t\t\t   [3]  300 Lei");
+    printf("\n\t\t\t   [2]  200 Lei");
+    printf("\n\t\t\t   [1]  100 Lei");
     clearcolor(0);
     printf("\n");
 }
@@ -778,12 +780,12 @@ void prize_r2()
     {
     printf("\n");
     setcolor(10);
-    printf("\n\t\t\t [10] 30.000 Lei");
+    printf("\n\t\t   [10] 30.000 Lei");
     setcolor(14);
-    printf("\n\t\t\t [9]  15.000 Lei");
-    printf("\n\t\t\t [8]  10.000 Lei");
-    printf("\n\t\t\t [7]  5.000 Lei");
-    printf("\n\t\t\t [6]  2.000 Lei");
+    printf("\n\t\t   [9]  15.000 Lei");
+    printf("\n\t\t   [8]  10.000 Lei");
+    printf("\n\t\t   [7]  5.000 Lei");
+    printf("\n\t\t   [6]  2.000 Lei");
     clearcolor();
     printf("\n");
 }
@@ -793,12 +795,12 @@ void prize_r3()
     {
     printf("\n");
     setcolor(10);
-    printf("\n\t\t\t [15] 1.000.000 Lei");
+    printf("\n\t\t   [15] 1.000.000 Lei");
     setcolor(14);
-    printf("\n\t\t\t [14] 500.000 Lei");
-    printf("\n\t\t\t [13] 250.000 Lei");
-    printf("\n\t\t\t [12] 125.000 Lei");
-    printf("\n\t\t\t [11] 60.000 Lei");
+    printf("\n\t\t   [14] 500.000 Lei");
+    printf("\n\t\t   [13] 250.000 Lei");
+    printf("\n\t\t   [12] 125.000 Lei");
+    printf("\n\t\t   [11] 60.000 Lei");
     clearcolor();
     printf("\n");
 }
