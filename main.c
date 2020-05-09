@@ -9,18 +9,24 @@
 
 void instructions();
 void restart();
+
 void prize_r1();
 void prize_r2();
 void prize_r3();
-void round2_ask();
-void round3_ask();
-void fail_message();
+
+void ask_for_r2();
+void ask_for_r3();
+
+
 void win_message_round1();
 void win_message_round2();
 void win_message_round3();
+void fail_message();
+
 void addtoend();
 void print_list();
 void reset_list();
+
 void setcolor();
 void clearcolor();
 void setbackground();
@@ -46,7 +52,7 @@ int count = 0;
 int main()
      {
      int main_round, score_counter=0, i, n;
-     float score;
+     //float score;
      char answer;
      char playername[20];
 
@@ -289,7 +295,7 @@ int main()
             score_counter++;
             getch();
             system("COLOR 0F");
-            round2_ask();
+            ask_for_r2();
             break;
 			    }
 		else
@@ -357,7 +363,7 @@ int main()
         printf("\n\t\t________________________________________");
 		printf("\n\n\t\t   7.CE SE ZICE IN POPOR CA-SI TINE OMUL");
 		printf("\n\t\t            INGAMFAT PE SUS");
-		printf("\n\n\t\t  A.Nasul\t\t  B.Urechile\n\n\t\t  C.Degele\t\t  D.Ochi");
+		printf("\n\n\t\t  A.Nasul\t\t  B.Urechile\n\n\t\t  C.Degetul\t\t  D.Ochi");
 		printf("\n\t\t________________________________________");
 
         setcolor(3);
@@ -501,7 +507,7 @@ int main()
             score_counter++;
             getch();
             system("COLOR 0F");
-            round3_ask();
+            ask_for_r3();
             break;
 			    }
 		else
@@ -609,7 +615,7 @@ int main()
         printf("\n\t\t     Scorul dumneavoastra: %d din 15", score_counter);
         printf("\n\t\t________________________________________");
 		printf("\n\n\t\t   13.CARE DINTRE URMATOARELE CUVINTE NU E DIMINUTIV?");
-		printf("\n\n\t\t  A.Sticula\t\t  B.Maimuta\n\n\t\t  C.Furnicuta\t\t  D.Puicuta");
+		printf("\n\n\t\t  A.Sticluta\t\t  B.Maimuta\n\n\t\t  C.Furnicuta\t\t  D.Puicuta");
 		printf("\n\t\t________________________________________");
 
         setcolor(3);
@@ -743,7 +749,6 @@ void restart()
         main();
         }}
 
-
 void instructions()
 	{
     system("cls");
@@ -753,8 +758,8 @@ void instructions()
     printf("\n");
     printf("\n\t\t[1] Jocul are 15 intrebari, 3 ROUND'uri");
     printf("\n\t\t[2] In sfarsitul fiecare Round, o sa aveti   ");
-    printf("\n\t\t    pop up ca sa alegeti sa ramaneti cu bani ");
-    printf("\n\t\t    castigat sau riscati pentru 1 milion de dolari");
+    printf("\n\t\t    pop up ca sa alegeti sa ramaneti cu banii");
+    printf("\n\t\t    castigat sau riscati pentru 1 milion de lei");
     printf("\n\t\t[3] Daca pierdeti pe parcurs, veti pierde toti banii");
     printf("\n\t\t[!] Va doresc succes");
     printf("\n\t\t________________________________________\n");
@@ -806,7 +811,7 @@ void prize_r3()
 }
 
 
-void round2_ask()
+void ask_for_r2()
 {
         system("cls");
         printf("\n\t\t________________________________________");
@@ -829,7 +834,7 @@ void round2_ask()
 
         }}
 
-void round3_ask()
+void ask_for_r3()
 {
         system("cls");
         printf("\n\t\t________________________________________");
@@ -837,7 +842,7 @@ void round3_ask()
         printf("\n\t\t              FELICITARI                ");
         printf("\n\t\t         ATI TERMINAT ROUND 2           ");
         printf("\n\n\t\t     [ENTER] - Vreau sa continui ROUND 3");
-        printf("\n\t\t         [B] - Raman cu 60.000$         ");
+        printf("\n\t\t         [B] - Raman cu 60.000 Lei         ");
         printf("\n\t\t________________________________________");
         printf("\n\t\t________________________________________");
         printf("\n\t\t      Raspunsul dumneavoastra:          ");
@@ -872,7 +877,7 @@ void win_message_round1()
         printf("\n\t\t________________________________________");
         printf("\n\t\t________________________________________");
         printf("\n\t\t              FELICITARI                ");
-        printf("\n\t\t        ATI CASTIGAT 1.000$      ");
+        printf("\n\t\t        ATI CASTIGAT 1.000 Lei      ");
         printf("\n\t\t________________________________________");
         printf("\n\t\t________________________________________");
         reset_list();
@@ -885,7 +890,7 @@ void win_message_round2()
         printf("\n\t\t________________________________________");
         printf("\n\t\t________________________________________");
         printf("\n\t\t              FELICITARI                ");
-        printf("\n\t\t        ATI CASTIGAT 60.000$      ");
+        printf("\n\t\t        ATI CASTIGAT 60.000 Lei      ");
         printf("\n\t\t________________________________________");
         printf("\n\t\t________________________________________");
         reset_list();
