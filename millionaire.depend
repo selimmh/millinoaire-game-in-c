@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1589147340 source:c:\users\selim\desktop\millionaire\main.c
+	<stdio.h>
+	<conio.h>
+	<ctype.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+
+1589143799 source:c:\users\selim\desktop\millionaire\icon.rc
+
+1589145202 source:c:\users\selim\desktop\millionaire\resources.rc
+
